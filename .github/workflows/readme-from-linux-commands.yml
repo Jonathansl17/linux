@@ -1,0 +1,38 @@
+name: Build README from linux-commands.txt
+
+on:
+  push:
+    paths:
+      - "linux-commands.txt"
+      - "scripts/gen_readme.py"
+    branches:
+      - main
+      - master
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  build-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate README.md
+        run: python3 scripts/gen_readme.py
+
+      - name: Commit README if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): auto-generate from linux-commands.txt"
+          file_pattern: README.md
+          branch: ${{ github.ref_name }}
