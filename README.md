@@ -43,7 +43,6 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `evince nombreArchivo.pdf` | abre un pdf |
 | `libreoffice nombreArchivo` | abre cualquier archivo de office (excel, word, power point, etc) |
 | `gtk-launch aplicacion` | lanza una app desde terminal |
-| `ejemplo` | gtk-launch pgadmin4 |
 | `sudo upgrade-grub` | reconstruir gestor de arranca |
 | `ctrl+z` | termina un proceso de la consola que no se cierre con ctrl+c |
 | `df -h /` | ver espacio utilizado/restante del disco principal |
