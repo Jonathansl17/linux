@@ -130,6 +130,8 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `git checkout nombreRama` | cambiar a una rama ya existente |
 | `git checkout -b nombre-rama` | Crear y cambiarse a una nueva rama |
 | `git switch nombre-rama` | Cambiarse de rama |
+| `git branch -d nombreRama` | borra una rama local |
+| `git push origin --delete nombreRama` | borra una rama remota |
 | `git reset --soft HEAD~1` | quitar los cambios del stage sin borrar los cambios locales |
 | `gh repo create nombre --private/public --source=. --remote=origin --push` | crear un repo en github |
 | `gh repo delete nombreRepo` | Eliminar repo desde terminal |
