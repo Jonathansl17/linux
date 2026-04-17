@@ -125,6 +125,7 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `git add .` | agregar todos los cambios al stage |
 | `git commit -m "mensaje"` | crear un commit con los cambios del stage |
 | `git push origin rama` | subir los commits a la rama remota |
+| `git restore .` | quita todos los cambios locales |
 | `git fetch --all --prune` | trae las ramas del remoto sin aplicar cambios y borra las que ya no existen |
 | `git branch` | listar ramas locales |
 | `git branch -r` | listar ramas remotas |
