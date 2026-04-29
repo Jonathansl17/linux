@@ -54,7 +54,6 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `sudo pkill nombre` | detiene un proceso por nombre |
 | `sudo kill -9 pid` | detiene un proceso por pid forzado |
 | `sudo pkill -9 nombre` | detiene un proceso por nombre forzado |
-| `systemctl list-units --type=service --all` | ver todos los servicios del sistema |
 | `mkdir nombrecarpeta` | crea una carpeta |
 | `mkdir -p nombrecarpetaPADRE/nombrecarpetaHIJO1/nombrecarpetaHIJO2/...` | crea varias carpetas |
 
@@ -83,6 +82,7 @@ _Generado automáticamente desde `linux-commands.txt`._
 
 | Comando | Descripción |
 |---|---|
+| `systemctl list-units --type=service --all` | ver todos los servicios del sistema |
 | `systemctl status servicio` | ver si un servicio esta activo |
 | `sudo systemctl enable servicio` | activar un servicio |
 | `sudo systemctl disable servicio` | desactivar un servicio |
