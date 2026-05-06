@@ -14,6 +14,7 @@ mv: nombreviejo nuevonombre: renombra un archivo
 sudo apt update: actualiza repositorios
 sudo apt upgrade: actualiza paquetes
 chmod +x programa.sh: da permisos de ejecutable a un script.sh
+chmod 700 archivo: permisos rwx solo para el dueño (grupo y otros sin acceso), comun para ~/.ssh y scripts privados
 sh script.sh: ejecuta un sh
 ls : lista el directorio actual
 ls -a: lista el directorio actual y archivos ocultos
