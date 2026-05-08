@@ -5,6 +5,8 @@ cd: se mueve de carpeta
 touch nombreArchivo : crea un Archivo
 nano nombreArchivo: abre un Archivo
 cat nombreArchivo: muestra el contenido de un archivo
+grep patron archivo: busca un patron en un archivo
+grep -E "patron1|patron2|" archivo: busca varios patrones en un archivo
 rm nombreArchivo: borra un archivo
 rm -rf nombreCarpeta: borra una carpeta y su contenido
 cp archivo ruta: copia un archivo en una carpeta
@@ -40,7 +42,6 @@ mkdir -p nombrecarpetaPADRE/nombrecarpetaHIJO1/nombrecarpetaHIJO2/...: crea vari
 
 
 --Comandos para recuperar archivos borrados con sudo rm o sudo rm -rf
-sudo apt install testdisk: instala testdisk y photorec para recuperar archivos
 sudo photorec: abre el asistente para recuperar archivos borrados
 
 
@@ -89,7 +90,7 @@ ps -ef | grep c.py: ver procesos de python activos
 
 
 --Comandos git
-git add .: agregar todos los cambios al stage
+git add . : agregar todos los cambios al stage
 git commit -m "mensaje": crear un commit con los cambios del stage
 git push origin rama: subir los commits a la rama remota
 git restore .: quita todos los cambios locales 
