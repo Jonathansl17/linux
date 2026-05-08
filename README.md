@@ -27,6 +27,8 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `touch nombreArchivo` | crea un Archivo |
 | `nano nombreArchivo` | abre un Archivo |
 | `cat nombreArchivo` | muestra el contenido de un archivo |
+| `grep patron archivo` | busca un patron en un archivo |
+| `grep -E "patron1\|patron2\|" archivo` | busca varios patrones en un archivo |
 | `rm nombreArchivo` | borra un archivo |
 | `rm -rf nombreCarpeta` | borra una carpeta y su contenido |
 | `cp archivo ruta` | copia un archivo en una carpeta |
@@ -64,7 +66,6 @@ _Generado automáticamente desde `linux-commands.txt`._
 
 | Comando | Descripción |
 |---|---|
-| `sudo apt install testdisk` | instala testdisk y photorec para recuperar archivos |
 | `sudo photorec` | abre el asistente para recuperar archivos borrados |
 
 ## Comandos de firewall
