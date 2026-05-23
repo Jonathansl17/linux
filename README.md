@@ -29,6 +29,7 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `cat nombreArchivo` | muestra el contenido de un archivo |
 | `grep patron archivo` | busca un patron en un archivo |
 | `grep -E "patron1\|patron2\|" archivo` | busca varios patrones en un archivo |
+| `find . -iname "file.extension"` | busca 1 archivo ignorando letras mayusculas |
 | `rm nombreArchivo` | borra un archivo |
 | `rm -rf nombreCarpeta` | borra una carpeta y su contenido |
 | `cp archivo ruta` | copia un archivo en una carpeta |
