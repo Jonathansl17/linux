@@ -55,7 +55,7 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `xournalpp --create-pdf=outputName.pdf file.xopp` | Exporta un archivo xopp a pdf |
 | `zip documentName.zip file1.txt file2.png *.js` | comprime archivos en un zip |
 | `zip -r documentName.zip .` | comprime todo el directorio actual recursivamente en un zip |
-| `zip -r documentName.zip . -x "carpeta/*" ".git/*"` | comprime todo recursivamente excluyendo carpetas |
+| `zip -r documentName.zip . -x "carpeta/*"` | comprime todo recursivamente excluyendo carpetas |
 | `unzip zipFile.zip -d folderName` | descomprime un archivo zip en una carpeta nueva |
 | `sudo kill pid` | detiene un proceso por pid |
 | `sudo pkill nombre` | detiene un proceso por nombre |
@@ -145,7 +145,9 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `git push origin --delete nombreRama` | borra una rama remota |
 | `git reset --soft HEAD~1` | quitar los cambios del stage sin borrar los cambios locales |
 | `gh repo create nombre --private/public --source=. --remote=origin --push` | crear un repo en github |
-| `gh repo delete nombreRepo` | Eliminar repo desde terminal |
+| `gh repo delete nombreRepo` | Eliminar repo de github desde terminal |
+| `gh pr create --base ramadestino --head ramaorigen --title "Titulo del pr" --body "Descripcion del pr"` | crea un pr en github |
+| `gh pr reopen numeropr` | re abre un pr en github |
 
 ## Comandos docker
 
