@@ -31,6 +31,7 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `grep -E "patron1\|patron2\|" archivo` | busca varios patrones en un archivo |
 | `find . -iname "file.extension"` | busca 1 archivo ignorando letras mayusculas |
 | `find . -type f \| wc -l` | cuenta la cantidad totales de archivos |
+| `find . -user username -group groupname -size xG, xM, xk, xc,x es un numero` | busca un archivo especificando dueño, grupo y tamaño |
 | `rm nombreArchivo` | borra un archivo |
 | `rm -rf nombreCarpeta` | borra una carpeta y su contenido |
 | `cp archivo ruta` | copia un archivo en una carpeta |
