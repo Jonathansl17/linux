@@ -64,6 +64,9 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `sudo pkill -9 nombre` | detiene un proceso por nombre forzado |
 | `mkdir nombrecarpeta` | crea una carpeta |
 | `mkdir -p nombrecarpetaPADRE/nombrecarpetaHIJO1/nombrecarpetaHIJO2/...` | crea varias carpetas |
+| `comando 2>/dev/null` | ejecuta un comando y oculta los errores |
+| `comando >/dev/null 2>&1` | ejecuta un comando y elimina toda la salida y errores |
+| `setsid -f programa o proceso` | ejecuta un programa o proceso sin quedar atado a la terminal |
 
 ## Comandos para recuperar archivos borrados con sudo rm o sudo rm -rf
 
