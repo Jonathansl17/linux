@@ -29,7 +29,8 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `cat nombreArchivo` | muestra el contenido de un archivo |
 | `grep patron archivo` | busca un patron en un archivo |
 | `grep -E "patron1\|patron2\|" archivo` | busca varios patrones en un archivo |
-| `find . -iname "file.extension"` | busca 1 archivo ignorando letras mayusculas |
+| `find . -iname "filename.extension"` | busca 1 archivo ignorando letras mayusculas |
+| `find . -iname "*filename*"` | busca un archivo incluyendo substrings del file name |
 | `find . -type f \| wc -l` | cuenta la cantidad totales de archivos |
 | `find . -user username -group groupname -size xG, xM, xk, xc,x es un numero` | busca un archivo especificando dueño, grupo y tamaño |
 | `rm nombreArchivo` | borra un archivo |
