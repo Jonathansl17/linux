@@ -69,6 +69,7 @@ _Generado automáticamente desde `linux-commands.txt`._
 | `comando >/dev/null 2>&1` | ejecuta un comando y elimina toda la salida y errores |
 | `setsid -f programa o proceso` | ejecuta un programa o proceso sin quedar atado a la terminal |
 | `ssh usuario@ip` | se conecta por ssh a otra maquina |
+| `ssh -i ruta-clave-ssh usuario@ip` | se conecta por ssh usando credenciales |
 
 ## Comandos para recuperar archivos borrados con sudo rm o sudo rm -rf
 
